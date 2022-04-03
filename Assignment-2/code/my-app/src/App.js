@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 function App(props) {
   const { employee } = props;
-  const { name, location, age, bloodGroup, profileImg } = props.employee;
+  const { name, location, age, bloodGroup, profileImg } = employee;
   return (
     <div className="container">
       {
