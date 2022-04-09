@@ -3,10 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+const employee={
+  name:"Alan Ford",
+  id:"000005152",
+  Appointment:"9:00(24-05-2016)",
+  email:"alan.form@gmail.com",
+  phone:+31123456789,
+  status:"in progress",
+  Door:"mark",
+  Time:"10:30(25-05-2016)",
+  profileImg: 'https://www.w3schools.com/howto/img_avatar.png',
+  role:"Boltart Bosbessen",
+  work:"Overheeliijke Boltaart met Bosbessen uni de keuken van de Bijenkorf",
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App employee={employee}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
