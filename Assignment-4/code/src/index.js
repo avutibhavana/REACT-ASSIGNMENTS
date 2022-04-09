@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Postview from './Postview';
+import Postview from './postview';
 import reportWebVitals from './reportWebVitals';
-
-
-
 
 
 ReactDOM.render(
