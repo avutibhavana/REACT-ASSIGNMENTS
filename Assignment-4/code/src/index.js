@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Postview from './postview';
+import App from './app';
 import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Postview />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

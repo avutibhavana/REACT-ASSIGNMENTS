@@ -27,4 +27,6 @@ const Postview = () => {
   );
   }
 export default Postview;
+//async, await, fetch, set time out, set interval, life cycles methods in react, useEffect, useState, class component/functional component,state & props, react native
+
 

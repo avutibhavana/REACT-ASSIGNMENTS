@@ -30,7 +30,6 @@ export default function Card({ people }) {
           </div>
           <div className="date">{person.date}</div>
         </div>
-
         <div className="likeCounts">
           <p>{person.likes} likes</p>
         </div>
